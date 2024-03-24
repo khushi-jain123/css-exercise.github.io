@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Effects</title>
+<style>
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container img {
+        width: 200px;
+        height: 150px;
+        margin: 10px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .rotate-effect:hover {
+        transform: rotate(15deg);
+    }
+
+    .scale-effect:hover {
+        transform: scale(1.2);
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <!-- First row with rotate effect -->
+    <div class="rotate-effect">
+        <img src="Kashmir.png" alt="Image 1">
+    </div>
+    <div class="rotate-effect">
+        <img src="Kerala.png" alt="Image 2">
+    </div>
+    <div class="rotate-effect">
+        <img src="Maldives.png" alt="Image 3">
+    </div>
+</div>
+
+<div class="container">
+    <!-- Second row with scale effect -->
+    <div class="scale-effect">
+        <img src="azerbaijan.png" alt="Image 4">
+    </div>
+    <div class="scale-effect">
+        <img src="Kashmir.png" alt="Image 5">
+    </div>
+    <div class="scale-effect">
+        <img src="Kerala.png" alt="Image 6">
+    </div>
+</div>
+
+</body>
+</html>

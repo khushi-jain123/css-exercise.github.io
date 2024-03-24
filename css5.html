@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Styled List</title>
+<style>
+  /* Common style for all list items */
+  ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+  }
+  
+  li {
+    padding: 10px; /* Add padding for better visibility */
+  }
+
+  /* Style every other line of the unordered list with a light blue background */
+  li:nth-child(even) {
+    background-color: rgb(224, 240, 175); /* Light blue background color using RGB */
+  }
+  li:nth-child(odd){
+    background-color: rgb(178, 189, 219); 
+  }
+
+</style>
+</head>
+<body>
+
+<!-- Unordered list with list items -->
+<ul>
+  <li>thor</li>
+  <li>Ironman</li>
+  <li>blackpanther</li>
+  <li>hulk</li>
+  <li>thanos</li>
+  <li>blackwidow</li>
+</ul>
+
+</body>
+</html>

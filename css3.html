@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Images with Different Border Styles</title>
+<style>
+  .bordered-image {
+    width: 300px;
+    height: 300px; 
+    margin: 10px; 
+  }
+
+  
+  .bordered-image.top {
+    border-top: 2px solid #333;
+  }
+  .bordered-image.right {
+    border-right: 2px dashed #666; 
+  }
+  .bordered-image.bottom {
+    border-bottom: 2px dotted #999; 
+  }
+  .bordered-image.left {
+    border-left: 2px double #ccc; 
+  }
+</style>
+</head>
+<body>
+
+<img src="Kashmir.png" alt="Image 1" class="bordered-image top">
+<img src="Kerala.png" alt="Image 2" class="bordered-image right">
+<img src="azerbaijan.png" alt="Image 3" class="bordered-image bottom">
+<img src="Maldives.png" alt="Image 4" class="bordered-image left">
+
+</body>
+</html>
